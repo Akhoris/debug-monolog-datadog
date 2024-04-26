@@ -1,0 +1,6 @@
+{
+    "name": "akhoris/debug-monolog-datadog",
+    "require": {
+        "monolog/monolog": "2.9.3"
+    }
+}
