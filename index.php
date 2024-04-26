@@ -11,7 +11,7 @@ use Monolog\Processor\HostnameProcessor;
 
 $formatter = new JsonFormatter();
 
-$handler = new StreamHandler("logs/buyback-order-api.log", Logger::DEBUG, true);
+$handler = new StreamHandler("logs/application-json.log", Logger::DEBUG, true);
 $handler->setFormatter($formatter);
 
 $groupHandler = new WhatFailureGroupHandler([$handler]);
